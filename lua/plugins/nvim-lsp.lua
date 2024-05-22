@@ -6,5 +6,6 @@ return {
     require("lspconfig").ccls.setup({})
     require("lspconfig").pyright.setup({})
     require("lspconfig").svls.setup({})
+    require("lspconfig").rust_analyzer.setup({})
   end,
 }
